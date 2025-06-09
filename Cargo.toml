@@ -1,0 +1,9 @@
+[package]
+name = "fdt_rw"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fdt-parser = "0.4"
+#vm-fdt = "0.3.0"
+vm-fdt = { path = "/home/hypervisor/vm-fdt"}
